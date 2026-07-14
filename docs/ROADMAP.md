@@ -8,18 +8,18 @@ Future plans may change as the project evolves.
 
 ---
 
-## Current Status
-
-- ✅ Sprint 0 — Foundation (Completed)
-- ⏳ Sprint 1 — Core Engine
-- ⏳ Sprint 2 — Workspace Manager
-- ⏳ Sprint 3 — Widget Manager
-- ⏳ Sprint 4 — Sidebar
-- ⏳ Sprint 5 — CLI
-- ⏳ Sprint 6 — Installer
-- ⏳ Sprint 7 — Plugin System
-- ⏳ Sprint 8 — Public Beta
-- ⏳ Sprint 9 — Version 1.0
+| Sprint | Status |
+|---------|--------|
+| Sprint 0 — Foundation | ✅ Completed |
+| Sprint 1 — Core Engine | 🚧 In Progress |
+| Sprint 2 — Workspace Manager | ⏳ Planned |
+| Sprint 3 — Widget Manager | ⏳ Planned |
+| Sprint 4 — Sidebar | ⏳ Planned |
+| Sprint 5 — CLI | ⏳ Planned |
+| Sprint 6 — Installer | ⏳ Planned |
+| Sprint 7 — Plugin System | ⏳ Planned |
+| Sprint 8 — Public Beta | ⏳ Planned |
+| Sprint 9 — Version 1.0 | ⏳ Planned |
 
 ---
 
