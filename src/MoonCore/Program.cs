@@ -1,10 +1,10 @@
 ﻿using MoonCore.Configuration;
-
-Console.WriteLine("Hello, World!");
+using MoonCore.Core;    
 
 ConfigurationLoader loader = new ConfigurationLoader();
 
 AppConfiguration configuration = loader.Load();
 
-Console.WriteLine(configuration.Application.Name);
-Console.WriteLine(configuration.Application.Version);
+MoonCoreApplication app = new MoonCoreApplication(configuration);
+app.Run();
+
