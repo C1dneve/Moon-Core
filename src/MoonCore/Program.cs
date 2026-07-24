@@ -6,5 +6,7 @@ ConfigurationLoader loader = new ConfigurationLoader();
 AppConfiguration configuration = loader.Load();
 
 MoonCoreApplication app = new MoonCoreApplication(configuration);
+
 app.Run();
+
 

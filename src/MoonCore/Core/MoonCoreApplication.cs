@@ -1,4 +1,5 @@
 using MoonCore.Configuration;
+using MoonCore.Logging;
 
 namespace MoonCore.Core;
 
@@ -13,7 +14,10 @@ public class MoonCoreApplication
 
     public void Run()
     {
-        Console.WriteLine(AppConfiguration.Application.Name);
-        Console.WriteLine(AppConfiguration.Application.Version);
+        Logger logger = new Logger();
+        logger.Info(AppConfiguration.Application.Name);
+        logger.Info(AppConfiguration.Application.Version);
+
+        
     }
 }
