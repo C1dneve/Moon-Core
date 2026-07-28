@@ -1,23 +1,22 @@
 using MoonCore.Configuration;
 using MoonCore.Logging;
+using MoonCore.Services;  
+
 
 namespace MoonCore.Core;
 
 public class MoonCoreApplication
 {
-    public AppConfiguration AppConfiguration { get; set; } = new();
+    public ServiceContainer ServiceContainer { get; set; }
 
-    public MoonCoreApplication(AppConfiguration configuration)
+    public MoonCoreApplication(ServiceContainer serviceContainer)
     {
-        AppConfiguration = configuration;
+        ServiceContainer = serviceContainer;
     }
 
     public void Run()
     {
-        Logger logger = new Logger();
-        logger.Info(AppConfiguration.Application.Name);
-        logger.Info(AppConfiguration.Application.Version);
-
-        
+        ServiceContainer.Logger.Info(ServiceContainer.AppConfiguration.Application.Name);
+        ServiceContainer.Logger.Info(ServiceContainer.AppConfiguration.Application.Version);
     }
 }
