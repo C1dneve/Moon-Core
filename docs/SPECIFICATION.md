@@ -10,7 +10,7 @@ v0.1
 
 The goal of version 0.1 is to successfully start the Moon Core engine.
 
-This version focuses on building a stable foundation for all future development.
+This version establishes the technical foundation of the project by introducing the application's startup lifecycle, configuration loading, logging system and modular architecture.
 
 ---
 
@@ -18,7 +18,7 @@ This version focuses on building a stable foundation for all future development.
 
 Version 0.1 is intentionally small.
 
-Its purpose is to establish the application's startup lifecycle before implementing workspace management, widgets or third-party integrations.
+Its purpose is to establish the application's core architecture before implementing workspace management, widgets or third-party integrations.
 
 No graphical interface is planned for this version.
 
@@ -31,7 +31,9 @@ Version 0.1 includes the following features:
 - Start the Moon Core engine
 - Load application configuration
 - Initialize the logging system
-- Load core modules
+- Register application services
+- Register core modules
+- Initialize registered modules
 - Display startup information
 
 ---
@@ -54,11 +56,19 @@ Loads configuration
 
 ↓
 
-Initializes logger
+Creates Service Container
 
 ↓
 
-Loads core modules
+Initializes Logger
+
+↓
+
+Registers Modules
+
+↓
+
+Initializes Modules
 
 ↓
 
@@ -79,6 +89,7 @@ Version 0.1 is considered complete when:
 - The logging system is initialized.
 - Core modules are loaded successfully.
 - Startup information is displayed.
+- Registered modules are initialized successfully.
 - The application exits gracefully.
 
 ---
@@ -114,6 +125,12 @@ Future versions may include:
 
 ---
 
+## Status
+
+✅ Completed
+
+---
+
 > **Engineering Note**
 >
-> Version 0.1 prioritizes stability over features.
+> Version 0.1 prioritizes architecture and stability over feature completeness.

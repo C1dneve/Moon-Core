@@ -4,14 +4,14 @@ The roadmap describes the planned evolution of Moon Core.
 
 Each sprint represents a meaningful milestone in the development of the project.
 
-Future plans may change as the project evolves.
+The roadmap may evolve as the project grows.
 
 ---
 
 | Sprint | Status |
 |---------|--------|
 | Sprint 0 — Foundation | ✅ Completed |
-| Sprint 1 — Core Engine | 🚧 In Progress |
+| Sprint 1 — Core Engine | ✅ Completed |
 | Sprint 2 — Workspace Manager | ⏳ Planned |
 | Sprint 3 — Widget Manager | ⏳ Planned |
 | Sprint 4 — Sidebar | ⏳ Planned |
@@ -25,11 +25,18 @@ Future plans may change as the project evolves.
 
 ## Sprint 1 — Core Engine
 
+
+### Status
+
+✅ Completed
+
 ### Goal
 
 Create the technical foundation of Moon Core.
 
-### Expected Deliverables
+### Completed Deliverables
+
+All planned deliverables for Sprint 1 have been successfully completed.
 
 - Basic project structure
 - Module loader
@@ -40,6 +47,10 @@ Create the technical foundation of Moon Core.
 ---
 
 ## Sprint 2 — Workspace Manager
+
+### Status
+
+⏳ Planned
 
 ### Goal
 
@@ -55,6 +66,10 @@ Allow users to create, save and switch between workspace profiles.
 ---
 
 ## Sprint 3 — Widget Manager
+
+### Status
+
+⏳ Planned
 
 ### Goal
 
@@ -72,6 +87,10 @@ Allow users to enable, disable and configure widgets inside a workspace.
 
 ## Sprint 4 — Sidebar
 
+### Status
+
+⏳ Planned
+
 ### Goal
 
 Provide a customizable sidebar for quick access to workspace actions.
@@ -88,6 +107,10 @@ Provide a customizable sidebar for quick access to workspace actions.
 
 ## Sprint 5 — CLI
 
+### Status
+
+⏳ Planned
+
 ### Goal
 
 Allow users to control Moon Core through the command-line interface.
@@ -102,6 +125,10 @@ Allow users to control Moon Core through the command-line interface.
 ---
 
 ## Sprint 6 — Installer
+
+### Status
+
+⏳ Planned
 
 ### Goal
 
@@ -119,6 +146,10 @@ Allow users to install and configure Moon Core with minimal setup.
 
 ## Sprint 7 — Plugin System
 
+### Status
+
+⏳ Planned
+
 ### Goal
 
 Allow developers to extend Moon Core through independent plugins.
@@ -135,6 +166,10 @@ Allow developers to extend Moon Core through independent plugins.
 
 ## Sprint 8 — Public Beta
 
+### Status
+
+⏳ Planned
+
 ### Goal
 
 Release the first public beta of Moon Core.
@@ -150,6 +185,10 @@ Release the first public beta of Moon Core.
 ---
 
 ## Sprint 9 — Version 1.0
+
+### Status
+
+⏳ Planned
 
 ### Goal
 
